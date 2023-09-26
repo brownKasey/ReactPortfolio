@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="main">
         <div className="overlay">
-          <img src="./assets/background.jpg" />
+          <img src={background} />
         </div>
 
         <div className="content">
