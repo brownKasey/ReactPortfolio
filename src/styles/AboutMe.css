@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+.card-container {
+  margin-left: 5%;
+}
+.hello {
+  font-family: "Martian Mono", serif;
+  color: #fff;
+}
+.about {
+  margin-left: 3%;
+  margin-top: 5%;
+  --bs-card-bg: #31572c !important;
+  --bs-card-border-color: #fff !important;
+  --bs-card-color: #fff !important;
+}
+.introduction {
+  margin-top: 3%;
+  --bs-card-border-color: none !important;
+  color: #fff;
+}
+.journey {
+  margin-top: 7%;
+  color: #fff;
+}
+.skills {
+  width: 800px;
+}
+@media (min-width: 1000px) {
+  .hello {
+    width: 800px;
+  }
+  .introduction {
+    width: 800px;
+  }
+  .journey {
+    width: 800px;
+  }
+  .skills {
+    width: 800px;
+  }
+}

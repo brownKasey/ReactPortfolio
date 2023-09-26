@@ -1,12 +1,24 @@
 .navbar {
+  margin-top: 1%;
   margin-left: 2%;
   margin-right: 2%;
+}
+.nav-link {
+  color: #fff !important;
 }
 .logo {
   height: 2em;
   padding-left: 0.2em;
   will-change: filter;
   transition: filter 300ms;
+}
+.navbar.center .navbar-inner {
+  text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+  display: inline-block;
+  float: none;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);

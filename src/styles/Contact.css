@@ -1,0 +1,34 @@
+.everything-container {
+  display: flex;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-label {
+  color: #fff;
+}
+.contact-me {
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .everything-container {
+    flex-direction: column;
+    margin: 5%;
+  }
+  .form-container {
+  }
+}
+@media (min-width: 1000px) {
+  .everything-container {
+    margin-left: 15%;
+    margin-top: 10%;
+  }
+  .contact-me {
+    width: 750px;
+  }
+  .form-container {
+    margin-left: 2%;
+    width: 400px;
+  }
+}
