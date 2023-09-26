@@ -1,14 +1,12 @@
 import "./styles/index.css";
-import background from "./assets/background.jpg";
+// import background from "./assets/background.jpg";
 import { FooterPage } from "./Component/Footer/index";
 import PageHandler from "./Component/PageHandler";
 function App() {
   return (
     <>
       <div className="main">
-        <div className="overlay">
-          <img src={background} />
-        </div>
+        <div className="overlay">{/* <img src={background} /> */}</div>
 
         <div className="content">
           <PageHandler />

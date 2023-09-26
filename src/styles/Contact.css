@@ -6,17 +6,15 @@
   flex-direction: column;
 }
 .form-label {
-  color: #fff;
+  color: #000;
 }
 .contact-me {
-  color: #fff;
+  color: #000;
 }
 @media (max-width: 600px) {
   .everything-container {
     flex-direction: column;
     margin: 5%;
-  }
-  .form-container {
   }
 }
 @media (min-width: 1000px) {

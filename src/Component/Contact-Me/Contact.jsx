@@ -80,7 +80,7 @@ function Contact() {
           <button
             type="submit"
             value="Send"
-            className=" submit btn btn-outline-light"
+            className=" submit btn btn-outline-dark"
           >
             Submit
           </button>

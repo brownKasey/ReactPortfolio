@@ -8,7 +8,7 @@
 }
 .hello {
   font-family: "Martian Mono", serif;
-  color: #fff;
+  color: #000;
 }
 .about {
   margin-left: 3%;
@@ -20,11 +20,11 @@
 .introduction {
   margin-top: 3%;
   --bs-card-border-color: none !important;
-  color: #fff;
+  color: #000;
 }
 .journey {
   margin-top: 7%;
-  color: #fff;
+  color: #000;
 }
 .skills {
   width: 800px;
